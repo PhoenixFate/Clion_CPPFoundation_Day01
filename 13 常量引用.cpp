@@ -24,7 +24,7 @@ void test1302()
     show(a);
 }
 
-int main()
+int main13()
 {
     test1301();
     test1302();
