@@ -54,11 +54,41 @@ void test1203()
     ss->name=new string("?????????????");
     cout<<*ss->name<<endl;
 }
+
+struct T
+{
+
+};
+
+struct T1
+{
+    int a;
+};
+
+struct T2
+{
+    string name;
+};
+
+void test1204()
+{
+    cout<<"-------------------------4------------------------"<<endl;
+    cout<<"size of T:"<<sizeof(T)<<endl;
+    cout<<"size of T1:"<<sizeof(T1)<<endl;
+    cout<<"size of T2:"<<sizeof(T2)<<endl;
+    T t;
+    T1 t1;
+    T2 t2;
+    cout<<"size of t:"<<sizeof(t)<<endl;
+    cout<<"size of t1:"<<sizeof(t1)<<endl;
+    cout<<"size of t2:"<<sizeof(t2)<<endl;
+}
 int main()
 {
     test1201();
     test1202();
     test1203();
+    test1204();
     cout<<"----------------------------------12----------------------"<<endl;
     return 0;
 }
